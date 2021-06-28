@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.card {
+    padding: 40px;
+    max-width: 200px;
+}
+
+.card-1 {
+    background: hsl(31, 77%, 52%);
+    border-radius: 5px 0 0 5px;
+}
+
+.card-2 {
+    background: hsl(184, 100%, 22%);
+}
+
+.card-3 {
+    background: hsl(179, 100%, 13%);
+    border-radius: 0 5px 5px 0;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 90px;
+}
+
+h1 {
+    padding: 30px 0;
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+}
+
+.botao {
+    padding: 10px 25px 10px 25px;
+    border-radius: 25px;
+    background: white;
+}
+
+a {
+    font-family: 'Big Shoulders Display', cursive;
+}
+
+.botao-1 {
+    cursor: pointer;
+    color: hsl(31, 77%, 52%);
+}
+
+.botao-1:hover {
+    color: white;
+    background: hsl(31, 77%, 52%);
+    border: 1px solid white;
+}
+
+.botao-2 {
+    color: hsl(184, 100%, 22%);
+    cursor: pointer;
+}
+
+.botao-2:hover {
+    color: white;
+    background: hsl(184, 100%, 22%);
+    border: 1px solid white;
+}
+
+.botao-3 {
+    cursor: pointer;
+    color: hsl(179, 100%, 13%);
+}
+
+.botao-3:hover {
+    color: white;
+    background: hsl(179, 100%, 13%);
+    border: 1px solid white;
+}
